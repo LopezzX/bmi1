@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: "Itim", cursive;
+    font-size: 17px;
+    background-color: black;
+}
+.bg-image {
+  position: fixed;
+  background:url(asdasd.gif);
+  background-size : cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+}
+.ml13 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+    color: lightblue;
+    text-align: center;
+}
+input {
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 40%;
+
+}
+label {
+    font-size: 25px;
+}
+button {
+    padding: 15px;
+    border-radius: 15px;
+    margin : 15px;
+    background-color: #D3D3D3;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display:inline-block;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  li a:hover {
+    background-color: pink;
+    border-radius: 10px;
+  }
+  #nav {
+    text-align: center;
+    width: 100%;
+  }
+ .content-social {
+  position: fixed;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.content-soci {
+  position: fixed;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
